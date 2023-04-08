@@ -10,9 +10,6 @@
                     <div class="col-12 col-lg-6 o_setting_box">
                         <div class="o_setting_right_pane" id="snailmail_settings">
                             <label for="mindee_api_key"/>
-                            <div class="text-muted"> mindee ai api key </div>
-                        </div>
-                        <div class="o_setting_left_pane">
                             <field name="mindee_api_key" />
                         </div>
                     </div>

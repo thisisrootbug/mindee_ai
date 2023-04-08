@@ -10,7 +10,7 @@
     'company': 'Source Bussiness Solutions',
     'depends': ['base', 'account' ],
     'data': [
-        'views/views.xml',
+        'views/account_move.xml',
         'views/res_config_settings.xml',
     ],
     'license': 'LGPL-3',

@@ -6,7 +6,7 @@
         <field name="inherit_id" ref="account.view_move_form" />
         <field name="arch" type="xml">
             <xpath expr="//header" position="inside">
-                <button name="action_ocr_fetch" string="Scan From Attachment" class="oe_highlight" type="object" />
+                <button name="action_ocr_fetch" string="Scan From Attachment" class="oe_highlight" type="object" attrs="{'invisible': [('state','!=', 'draft')] }" />
             </xpath>
         </field>
     </record>
